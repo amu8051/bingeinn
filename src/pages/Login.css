@@ -1,0 +1,41 @@
+.login_container {
+  display: flex;
+  justify-content: center;
+}
+
+.login_bg_img {
+  opacity: .3;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.login_box {
+  position: fixed;
+  height: 400px;
+  width: 300px;
+  /* z-index: 1; */
+  cursor: pointer;
+  /* border: 1px solid white; */
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}

@@ -1,0 +1,22 @@
+.row_image_container{
+  display: flex;
+  margin-left: 20px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.row_image{
+  width: 150px;
+    object-fit: contain;
+    max-height: 200px;
+    transition: transform 450ms;
+    margin: 1px;
+}
+
+.row_image:hover{
+  transform: scale(1.1);
+}
+
+.row_image_container::-webkit-scrollbar {
+  display: none;
+}
