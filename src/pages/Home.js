@@ -21,8 +21,10 @@ const Home = () => {
     <div className="App">
       <Nav />
       <Banner />
+      <Row title="Trending" fetchUrl={requests.fetchTrending} />
       <Row title="NETFLIX OG" fetchUrl={requests.fetchNetflixOriginals} />
       <Row title="Amazon" fetchUrl={requests.fetchAmazon} />
+      <Row title="Disney+Hotstar" fetchUrl={requests.fetchDisneyHotstar} />
       <Row title="Sony Liv" fetchUrl={requests.fetchSonyLiv} />
       <Row title="TVF Play" fetchUrl={requests.fetchTVFPlay} />
       <Row title="Zee5" fetchUrl={requests.fetchZee5} />

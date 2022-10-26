@@ -4,6 +4,7 @@ const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
   fetchAmazon: `/discover/tv?api_key=${API_KEY}&with_networks=1024`,
+  fetchDisneyHotstar: `/discover/tv?api_key=${API_KEY}&with_networks=3919`,
   fetchSonyLiv: `/discover/tv?api_key=${API_KEY}&with_networks=2646`,
   fetchTVFPlay: `/discover/tv?api_key=${API_KEY}&with_networks=1145`,
   fetchZee5: `/discover/tv?api_key=${API_KEY}&with_networks=2590`,

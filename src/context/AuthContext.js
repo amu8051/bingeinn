@@ -1,4 +1,4 @@
-import { useEffect, useContext, useState, createContext } from 'react';
+import React, { useEffect, useContext, useState, createContext } from 'react';
 import { auth, db } from '../firbase';
 import {
   createUserWithEmailAndPassword,
